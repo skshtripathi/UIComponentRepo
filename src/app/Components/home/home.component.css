@@ -1,0 +1,17 @@
+
+ .homepagecard{
+     padding-top: 30vh;
+     background-color: transparent;
+ }
+
+ .transparentbutton{
+    padding: 2px;
+    background-color: transparent;
+    height: 10vh;
+    width : 15%;
+    margin: 10;
+ }
+  
+  .overlaycard{
+    grid-area: 1 / 1;
+  }
