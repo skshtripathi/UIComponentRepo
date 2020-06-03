@@ -1,7 +1,7 @@
-<mat-toolbar color="black">
+<mat-toolbar color="white">
   <mat-toolbar-row>
     <button mat-icon-button>
-      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+      <mat-icon (click)="sidenav.toggle()" [ngStyle]="{'color':'white'}">A</mat-icon>
     </button>
     <h1 class="titlefontstyle">Alive</h1>
     <h1 class="dot">.</h1>
@@ -20,7 +20,7 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav style="background-image: url('assets/images/peaks.jpg');">
     <mat-nav-list>
-
+ 
       <a class="titlefontstyle" mat-list-item [routerLink]="'/selfassessment'"> How are you today? </a>
       <a class="titlefontstyle" mat-list-item [routerLink]="'/music'"> Music therapy </a>
       <a class="titlefontstyle" mat-list-item [routerLink]="'/memes'"> Meme Therapy </a>

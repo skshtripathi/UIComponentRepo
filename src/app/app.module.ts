@@ -7,6 +7,7 @@ import { MatSidenavModule } from  '@angular/material/sidenav';
 import {MatButtonModule } from  '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule } from  '@angular/material/list';
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -48,7 +49,8 @@ import { NopermissionsComponent } from './ErrorHandlers/nopermissions/nopermissi
     MatButtonModule,
     MatIconModule,
     MatCardModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
